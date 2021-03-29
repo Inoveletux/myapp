@@ -156,6 +156,7 @@ a:hover {
   padding: 7px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #e1e2ed;
+  margin-bottom: 15px;
 }
 .myButton:hover {
   background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
@@ -165,3 +166,25 @@ a:hover {
   position: relative;
   top: 1px;
 }
+
+.magicContent {
+  border: 2px solid rgb(166, 83, 53);
+  max-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+#textFlavor {
+  font-style: italic;
+}
+
+#CCM {
+  text-align: right;
+}
+
+/* div {
+  border-width: 2px;
+  border-color: #31259e;
+  border: solid;
+} */

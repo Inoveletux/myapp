@@ -49,18 +49,30 @@ function onClick(event) {
             }
 
             retourHTML.innerHTML = 
-            `<p>
-            ${CCMAAfficher}
-            <br>
-            <br>
-            ${typeAAfficher}
-            <br>
-            <br>
-            ${textAAfficher}
-            <br>
-            <br>
-            ${flavorAAfficher}
-            </p>`;
+            `<div>
+                <div id="CCM" class="magicContent">
+                    <p>
+                        ${CCMAAfficher}
+                    </p>    
+                </div>
+                <div class="magicContent">
+                    <p>
+                        ${typeAAfficher}
+                    </p>
+                </div>
+                <div class="magicContent">
+                    <p>    
+                        ${textAAfficher}
+                    </p>
+                </div>
+                <div id="textFlavor" class="magicContent">
+                    <p>
+                        ${flavorAAfficher}
+                    </p>
+                </div>
+            </div>    
+                `
+            ;
         })
         .catch((erreur) => {
             // Y'a une erreur, l'erreur est dans "erreur"
